@@ -9,6 +9,6 @@ Bem-vindo ao Python Demo Projects, uma coleção de pequenos scripts em Python d
 - Ferramentas de organização e manipulação de arquivos
 - Pequenas demonstrações de conceitos de programação
 
-##💡 Observações
+## 💡 Observações
 
 Este repositório é voltado para aprendizado e demonstração de habilidades em Python. Sinta-se à vontade para estudar e testar os scripts.
