@@ -42,6 +42,15 @@ def Check_Data(email, data):
         return result[0]
     return False
 
+
+def user_exists(email):
+    cursor.execute("SELECT * FROM usuarios WHERE email = ?", (email,))
+    result = cursor.fetchone()  # pega a primeira linha
+    
+    banco.close()
+    
+    return result is not None  # True se existe, False se não
+
 # Atualizar dado
 def Update_Data(Email, data, Value):
     cursor.execute(
